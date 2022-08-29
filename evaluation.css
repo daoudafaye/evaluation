@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+}
+/* En-tête/Titre du blog */
+.header{
+    text-align: center;
+    background-color:white;
+    padding: 30px;
+
+}
+.header h1{
+    font-size: 30px;
+}
+
+ul{
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+  /* Styliser la barre de navigation supérieure */
+.lien{
+    overflow: hidden;
+    background-color: #333;
+}
+.lien a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+}
+/* Changer la couleur au survol */
+.lien a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.font{
+    
+}
+/* Créer deux colonnes inégales qui flottent l'une à côté de l'autre */
+/* Colonne de gauche */
+.leftcolum{
+    
+    float: left;
+    width: 75%;
+}
+.image{
+    background-color: #aaa;
+}
+.rightcolumn {
+    float: right;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  .image{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
